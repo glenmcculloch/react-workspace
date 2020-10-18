@@ -29,7 +29,6 @@ class StreamForm extends React.Component {
     }
 
     render() {
-        console.log('STREAM FORM', this.props);
         return (
             <form className="ui form error" onSubmit={this.props.handleSubmit(this.onSubmit)}>
                 <Field 
